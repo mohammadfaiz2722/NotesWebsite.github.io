@@ -60,7 +60,6 @@ function shownotes() {
         <h5>${titleobj[index]}</h5>
             <p class="card-text">${element}</p>
             <button  class="btn btn-primary" id="index" onclick="deleteNode(this.id)">Delete Note</button>
-            <button  class="btn btn-primary" id="index" onclick="deleteNode(this.id)">Mrk as impoertant</button>
         </div>
     </div>`
     });
